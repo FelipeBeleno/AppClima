@@ -345,13 +345,13 @@ body {
         margin-top: 10px;
         border-radius: 10px;
         height: 70px;
-        width: 90%;
+        width: 100%;
         object-fit: cover;
     }
     .img2Ultimate {
         background-image: url("../images/edificioRosa.jpg");
         height: 120px;
-        width: 90%;
+        width: 100%;
         background-size: cover;
         border-radius: 10px;
         margin-bottom: 10px;
