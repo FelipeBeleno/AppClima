@@ -329,6 +329,11 @@ body {
 }
 
 @media (max-width: 830px) {
+
+    .placetovisit {
+        display: block;
+        width: 70%;
+    }
     .cardsFrance {
         position: static;
     }
@@ -345,13 +350,13 @@ body {
         margin-top: 10px;
         border-radius: 10px;
         height: 70px;
-        width: 100%;
+        width: 90%;
         object-fit: cover;
     }
     .img2Ultimate {
         background-image: url("../images/edificioRosa.jpg");
         height: 120px;
-        width: 100%;
+        width: 90%;
         background-size: cover;
         border-radius: 10px;
         margin-bottom: 10px;
@@ -368,7 +373,7 @@ body {
         display: flex;
     }
     .ultimeCardContainer {
-        width: 90%;
+        width: 70%;
     }
     .oneDayData {
         height: 100%;
@@ -394,5 +399,13 @@ body {
         text-align: center;
         font-size: small;
     
+    }
+
+    .ultimateContainerCard {
+        margin-top: 10px;
+        display: block;
+        width: 90%;
+        margin-bottom: 30px;
+        margin: 10px auto 0 auto;
     }
 }
