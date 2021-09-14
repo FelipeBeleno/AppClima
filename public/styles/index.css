@@ -145,10 +145,9 @@ body {
     padding-left: 10px;
 }
 
-.pDetails{
+.pDetails {
     margin-top: 20px;
     font-size: small;
-
 }
 
 .bottomCardFrance2 {
@@ -329,7 +328,14 @@ body {
 }
 
 @media (max-width: 830px) {
+    .container {
+        border-radius: 15px;
+        box-shadow: 5px 5px 15px 5px #D3D3D3;
+        height: 100%;
+        background-color: white;
+        min-width: 484px;
 
+    }
     .placetovisit {
         display: block;
         width: 70%;
@@ -393,14 +399,11 @@ body {
         left: 50px;
         top: 50px
     }
-
-    .pDetails{
+    .pDetails {
         margin-top: 35px;
         text-align: center;
         font-size: small;
-    
     }
-
     .ultimateContainerCard {
         margin-top: 10px;
         display: block;
