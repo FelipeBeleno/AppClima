@@ -1,0 +1,398 @@
+body {
+    margin: 0px;
+    padding: 100px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #e1e8f0;
+}
+
+.container {
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px 5px #D3D3D3;
+    height: 80vh;
+    background-color: white;
+}
+
+.cardAddLocations {
+    border-style: dashed;
+    border-color: #e1e8f0;
+}
+
+.containerAddLocations {
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+}
+
+.btn-add {
+    border-radius: 20px;
+    border: none;
+    padding: 10px 15px;
+    background-color: #efeefa;
+    color: #8e8bb4;
+    cursor: pointer;
+}
+
+.iconBogota {
+    height: 75px;
+    width: 75px;
+    object-fit: contain;
+}
+
+.bogotaData {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.containerCards {
+    padding-top: 10px;
+    position: relative;
+}
+
+.actual {
+    display: block;
+    position: absolute;
+    top: 70px;
+    z-index: 1;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+}
+
+.containerBogota {
+    position: relative;
+    left: 150px;
+    top: 50px
+}
+
+.cuadro {
+    height: 70px;
+    width: 70px;
+    background-color: teal;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.icon {
+    background-color: #313389;
+    color: white;
+}
+
+.grados {
+    color: white;
+    background-color: #7d68e9;
+    text-align: center;
+}
+
+.contenidoTemp {
+    position: relative;
+    top: 20px;
+    display: flex;
+    padding-left: 20px;
+}
+
+.imgAddLocation {
+    height: 50px;
+}
+
+.containerBanner {
+    margin: 30px;
+    border-radius: 20px;
+    background-image: url("../images/Banner_Grande_Bogota.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    color: white;
+    height: 200px;
+    z-index: 0;
+}
+
+.containerBogota {
+    display: inline-block;
+    justify-content: space-evenly;
+}
+
+.cardsFrance {
+    position: absolute;
+    right: 100px;
+    top: 200px
+}
+
+.cardFranceUn {
+    margin-top: 10px;
+    display: block;
+    height: 120px;
+    background-color: red;
+    min-width: 250px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.iconFrance {
+    position: absolute;
+    width: 100px;
+    height: 90px;
+    background-color: #dce8f1;
+    border-radius: 10px;
+}
+
+.franceGrades {
+    display: block;
+    margin: 0 20px 0 auto;
+    width: 100px;
+}
+
+.bottomCardFrance {
+    position: relative;
+    top: 15px;
+    padding-left: 10px;
+}
+
+.pDetails{
+    margin-top: 20px;
+    font-size: small;
+
+}
+
+.bottomCardFrance2 {
+    position: absolute;
+    top: 240px;
+    left: 10px;
+}
+
+.ultimeCardContainer {
+    display: inline-flex;
+    margin-top: 5px;
+    margin-left: 30px;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.threeDays {
+    text-align: center;
+}
+
+.containerTitle {
+    display: inline;
+}
+
+.containerCardsThreeDays {
+    display: block;
+}
+
+.cardThreeday {
+    border-radius: 10px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+    height: 80px;
+    width: 230px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.oneDayData {
+    height: 100%;
+    width: 169px;
+}
+
+.oneDayIcon {
+    height: 100%;
+    width: 70px;
+    background-color: #7d68e7;
+    border-radius: 10px;
+}
+
+.secondDayData {
+    height: 100%;
+    width: 169px;
+}
+
+.secondDayIcon {
+    height: 100%;
+    width: 70px;
+    background-color: #dce8f4;
+    border-radius: 10px;
+}
+
+.placetovisit {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.imgPlaceToVisit {
+    margin-top: 10px;
+    max-width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.ultimateContainerCard {
+    margin-top: 20px;
+    color: #b8b8b8;
+    text-align: center;
+}
+
+.titleFinal {
+    display: inline-flex;
+}
+
+.mas {
+    height: 15px;
+    width: 15px;
+}
+
+.person {
+    height: 20px;
+    width: 20px;
+    display: block;
+    background-color: red;
+    margin: 3px;
+    border-radius: 3px;
+}
+
+.person1 {
+    background-color: teal;
+}
+
+.person2 {
+    font-size: xx-small;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.img1Ultimate {
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 70px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img2Ultimate {
+    background-image: url("../images/edificioRosa.jpg");
+    height: 120px;
+    width: 220px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.containerImg {
+    display: block;
+}
+
+@media (max-width: 1330px) {
+    .container {
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px 5px #D3D3D3;
+        height: 100%;
+        background-color: white;
+    }
+    .ultimeCardContainer {
+        display: block;
+    }
+    .containerTitle {
+        display: inline-block;
+    }
+    .ultimeCardContainer {
+        width: 40%;
+    }
+    .placetovisit {
+        display: block;
+        width: 60vw;
+    }
+    .ultimateContainerCard {
+        margin-top: 10px;
+        display: block;
+        width: 60vw;
+        margin-bottom: 30px;
+        margin: 10px auto 0 auto;
+    }
+    .img1Ultimate {
+        margin-top: 10px;
+        border-radius: 10px;
+        height: 70px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .img2Ultimate {
+        background-image: url("../images/edificioRosa.jpg");
+        height: 120px;
+        width: 100%;
+        background-size: cover;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    .imgPlaceToVisit {
+        min-width: 100%;
+    }
+}
+
+@media (max-width: 830px) {
+    .cardsFrance {
+        position: static;
+    }
+    .bottomCardFrance {
+        position: static;
+    }
+    .bottomCardFrance2 {
+        position: static;
+    }
+    .cardFranceUn {
+        margin: 10px;
+    }
+    .img1Ultimate {
+        margin-top: 10px;
+        border-radius: 10px;
+        height: 70px;
+        width: 90%;
+        object-fit: cover;
+    }
+    .img2Ultimate {
+        background-image: url("../images/edificioRosa.jpg");
+        height: 120px;
+        width: 90%;
+        background-size: cover;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    .imgPlaceToVisit {
+        min-width: 90%;
+    }
+    .cardThreeday {
+        border-radius: 10px;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+        height: 80px;
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+    }
+    .ultimeCardContainer {
+        width: 90%;
+    }
+    .oneDayData {
+        height: 100%;
+        width: 80%;
+    }
+    .oneDayIcon {
+        width: 20%;
+    }
+    .secondDayData {
+        width: 80%;
+    }
+    .secondDayIcon {
+        width: 20%;
+    }
+    .containerBogota {
+        position: relative;
+        left: 50px;
+        top: 50px
+    }
+
+    .pDetails{
+        margin-top: 35px;
+        text-align: center;
+        font-size: small;
+    
+    }
+}
